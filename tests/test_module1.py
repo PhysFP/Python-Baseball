@@ -76,7 +76,7 @@ def test_concatenate_identifier_columns_module1():
 
 @pytest.mark.test_fill_nan_values_module1
 def test_fill_nan_values_module1():
-    assert 'games:games:fillna: ' in get_assignments(data), 'The `NaN` values in the `identifiers` DataFrames have not been fill with a space.'
+    assert 'games:games:fillna' in get_assignments(data), 'The `NaN` values in the `identifiers` DataFrames have not been fill with a space.'
 
 @pytest.mark.test_categorical_event_type_module1
 def test_categorical_event_type_module1():
